@@ -149,7 +149,7 @@
                       this.$alert('gif图片不能超过2048k', '提示')
                     }
                   } else {
-                    if (file.size / 1024 > 512) {
+                    if (file.size / 1024 > 2048) {
                       invalide = false
                       this.$alert('jpeg、png图片不能超过512k', '提示')
                     }

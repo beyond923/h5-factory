@@ -29,7 +29,7 @@
         </div>
       </div>
     </template>
-    <el-button icon="el-icon-plus" style="margin-top:15px;" round @click="addInput">添加段落项</el-button>
+    <el-button icon="el-icon-plus" style="margin-top:15px;" round @click="addInput">添加段落项3</el-button>
   </div>
 </template>
 

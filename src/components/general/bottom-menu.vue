@@ -2,7 +2,7 @@
   <div class="bottom-menu" :style="getStyle">
     <div class="menu-item" :style="{width: 750 / menus.length + 'px'}" v-for="item in menus">
       <img v-if="item.val" :src="item.val">
-      <div v-else class="image-placeholder"><i class="fa fa-adjust"></i></div>
+      <div v-else class="image-placeholder"><i class="fa fa-home"></i></div>
     </div>
   </div>
 </template>

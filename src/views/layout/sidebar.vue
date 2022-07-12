@@ -108,7 +108,7 @@
 
           > .fa {
             font-size: 24px;
-            color: #409eff;
+            color: #e74c3c;
           }
         }
 

@@ -1,6 +1,6 @@
 <template>
   <header class="app-header">
-    <img class="header-logo" src="https://yangyuji.github.io/h5-factory/static/img/logo.png">h5-factory
+    <img class="header-logo" src="assets/img/logo.png">专题界面配置
   </header>
 </template>
 
@@ -22,7 +22,7 @@
 
     .header-logo {
       display: inline-block;
-      width: 30px;
+      // width: 30px;
       height: 30px;
       vertical-align: middle;
       margin-right: 15px;

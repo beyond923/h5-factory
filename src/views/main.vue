@@ -177,7 +177,7 @@
       savePageSet() {
         console.warn('save Info: ', JSON.stringify(this.compList))
         this.$message({
-          message: '打开chomre devtool查看保存的信息！',
+          message: '待办：对接接口，记录保存的信息',
           type: 'success'
         })
       },
@@ -308,7 +308,7 @@
           this.resetCompUnchecked()
           this.addComp(idx, key)
         } else {
-          this.$message.warning('没有查询到该组件的配置信息。。。')
+          this.$message.warning('没有查询到该组件的配置信息。。。1')
         }
       },
       dragleave(e) {
@@ -336,7 +336,7 @@
               this.addComp(idx, key)
             }
           } else {
-            this.$message.warning('没有查询到该组件的配置信息。。。')
+            this.$message.warning('没有查询到该组件的配置信息。。。2')
           }
         }
       },

@@ -129,7 +129,7 @@
       width: 70px;
       height: 4px;
       border-radius: 0;
-      background: #409eff;
+      background: #e74c3c;
     }
 
     .scroll-wrapper {
